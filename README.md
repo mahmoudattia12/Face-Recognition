@@ -51,7 +51,7 @@ The ORL dataset is used for this project, which contains 10 images per subject. 
 - Experimentation with non-face images to evaluate model robustness.
 - Comparison of different techniques for face vs. non-face classification.
 
-### 3. Bonus Part: Other variations to PCA and LDA
+### 5. Bonus Part: Other variations to PCA and LDA
 
 #### Introduction
 In this bonus part, we explore additional variations of PCA and LDA beyond the original algorithms. Specifically, we implement Kernel PCA as an extension of PCA and compare it to the original PCA algorithm. Furthermore, we utilize Quadratic Discriminant Analysis (QDA) and Regularized Linear Discriminant Analysis (rLDA) as variations of LDA and compare them to the traditional LDA approach.
