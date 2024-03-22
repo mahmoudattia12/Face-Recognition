@@ -1,6 +1,6 @@
 # Face-Recognition
 
-This repository contains the implementation of a face recognition system using various dimensionality reduction and classification techniques, including Principal Component Analysis (PCA), Linear Discriminant Analysis (LDA), Kernel PCA, and Quadratic Discriminant Analysis (QDA), followed by the K-Nearest Neighbors (KNN) algorithm for face identification.
+This repository contains the implementation of a face recognition system using various dimensionality reduction and classification techniques, including Principal Component Analysis (PCA), Linear Discriminant Analysis (LDA), Kernel PCA, Regularized Linear Discriminant Analysis (rLDA), and Quadratic Discriminant Analysis (QDA), followed by the K-Nearest Neighbors (KNN) algorithm for face identification.
 ---
 
 ### Table of Contents
