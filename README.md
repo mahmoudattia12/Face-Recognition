@@ -60,11 +60,11 @@ In this bonus part, we explore additional variations of PCA and LDA beyond the o
 - **Kernel PCA**: Kernel PCA is an extension of PCA that allows for non-linear dimensionality reduction. It can capture non-linear relationships by implicitly mapping the data into a higher-dimensional space using a kernel function.
 - **PCA**: Principal Component Analysis is a linear dimensionality reduction technique that aims to find the orthogonal directions (principal components) along which the data varies the most.
 
-##### Time Complexity Comparison:
+###### Time Complexity Comparison:
 - **PCA**: \( O(nd^2 + d^3) \)
 - **Kernel PCA**: \( O(n^2d + n^3) \)
 
-##### Accuracy Comparison:
+###### Accuracy Comparison:
 - PCA:
   - Suitable for linear relationships.
   - Limited capability to capture non-linear structures.
@@ -76,10 +76,10 @@ In this bonus part, we explore additional variations of PCA and LDA beyond the o
 - **QDA**: Assumes that the class-conditional densities of the features follow multivariate Gaussian distributions, with each class potentially having its own covariance matrix.
 - **LDA**: Assumes a shared covariance matrix for all classes.
 
-##### Time Complexity Comparison:
+###### Time Complexity Comparison:
 - Both algorithms have a time complexity of approximately \( O(nd^2 + d^3) \), but QDA may involve additional computations due to the estimation of separate covariance matrices for each class.
 
-##### Accuracy Comparison:
+###### Accuracy Comparison:
 - QDA:
   - Allows for more flexibility in capturing complex relationships within each class.
   - Requires sufficient data to estimate class-specific covariance matrices accurately.
@@ -90,17 +90,17 @@ In this bonus part, we explore additional variations of PCA and LDA beyond the o
 - **rLDA**: An extension of LDA that incorporates regularization techniques to improve stability and generalization, especially in high-dimensional or noisy datasets.
 - **LDA**: Traditional Linear Discriminant Analysis without regularization.
 
-##### Time Complexity Comparison:
+###### Time Complexity Comparison:
 - Both rLDA and LDA have a time complexity of approximately \( O(nd^2 + d^3) \), but rLDA may involve additional computations due to the regularization step.
 
-##### Accuracy Comparison:
+###### Accuracy Comparison:
 - rLDA:
   - Offers improved stability and generalization, particularly in high-dimensional or noisy datasets.
   - Balances between fitting the data well and maintaining stability through regularization.
 - LDA:
   - May suffer from overfitting or instability in certain scenarios, especially when dealing with collinear features or limited sample sizes.
 
-#### Conclusion
+#### Results
 - Kernel PCA is effective for capturing non-linear relationships, while PCA is suitable for linear relationships.
 - QDA provides more flexibility in modeling complex relationships within each class compared to LDA.
 - rLDA offers improved stability and generalization over LDA, especially in challenging datasets.
