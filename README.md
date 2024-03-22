@@ -18,12 +18,9 @@ you can tell the subject id. Our database of subject is very simple. It has 40 s
 Below we will show the needed steps to achieve the goal of the assignment.
 
 ## Contributers
-
-| Name                              | ID      |
-|-----------------------------------|---------|
-| Patrick George Kromil Shenouda    | 20010383|
-| Adel Mahmoud Mohamed Abdelrahman  | 20010769|
-| Mahmoud Attia Mohamed Abdelaziz   | 20011810|
+* [Patrick Georges](https://github.com/Patrick-Geo7)
+* [Adel Mahmoud](https://github.com/Adel-Mahmoud-Mohamed)
+* [Mahmoud Attia](https://github.com/mahmoudattia12)
 
 ## Dataset
 
