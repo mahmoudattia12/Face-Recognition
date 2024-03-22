@@ -1,6 +1,6 @@
 # Face-Recognition
 
-This repository contains the implementation of a face recognition system using various dimensionality reduction and classification techniques, including PCA, LDA, Kernel PCA, QDA, and rLDA, followed by the KNN algorithm for face identification.
+This is face recognition model implemented using various dimensionality reduction and classification techniques, including PCA, LDA, Kernel PCA, QDA, and rLDA, followed by the KNN algorithm for face identification.
 ---
 
 ### Table of Contents
